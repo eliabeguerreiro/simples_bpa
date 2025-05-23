@@ -1,10 +1,4 @@
 
-<?php
-/*
-$senhaHash = password_hash('vivenciar', PASSWORD_DEFAULT);
-echo $senhaHash;
-*/
-?>
 
 <!DOCTYPE html>
 <html lang="pt-br">

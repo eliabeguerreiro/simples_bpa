@@ -145,9 +145,6 @@
     
     <!-- Botão para gerar arquivo BPA-I -->
     <form action="gerar_bpai.php" method="POST" style="margin-top: 20px;">
-        <input type="hidden" name="competencia" value="<?= htmlspecialchars($filtros['competencia']) ?>">
-        <input type="hidden" name="data_inicio" value="<?= htmlspecialchars($filtros['data_inicio']) ?>">
-        <input type="hidden" name="data_fim" value="<?= htmlspecialchars($filtros['data_fim']) ?>">
         <button type="submit" class="btn-generate">Gerar Arquivo BPA-I</button>
     </form>
 </section>
